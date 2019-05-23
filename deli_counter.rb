@@ -22,4 +22,5 @@ def now_serving (array)
   else
     name = array[0]
     puts "Currently serving #{name}."
+  end
 end
