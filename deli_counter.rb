@@ -6,7 +6,7 @@ def line (array)
   else
     line = ["The line is currently:"]
     array.each_with_index { |name, place| line << (place + 1).to_s + ". #{name}" } 
-    puts line.join("")
+    puts line.join(" ")
   end
 end
 
